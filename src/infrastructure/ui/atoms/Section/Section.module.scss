@@ -1,0 +1,21 @@
+.section {
+  margin: 70px 0 !important;
+  padding: 0 15px;
+
+  @media (min-width: 768px) {
+    margin: 35px 0;
+    padding: 0 30px;
+  }
+
+  @media (min-width: 1024px) {
+    margin: 40px 0;
+    padding: 0 40px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 0 40px !important;
+    max-width: 1440px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

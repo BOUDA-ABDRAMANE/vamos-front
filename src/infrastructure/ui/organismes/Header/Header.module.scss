@@ -1,0 +1,21 @@
+.header {
+  .headerContent {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 5px 20px;
+
+    .logo {
+      width: 100px;
+
+      @media (min-width: 950px) {
+        width: 120px;
+      }
+    }
+
+    .auth {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}

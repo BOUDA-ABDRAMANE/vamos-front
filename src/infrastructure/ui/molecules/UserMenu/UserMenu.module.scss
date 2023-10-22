@@ -1,0 +1,15 @@
+.userMenu {
+  .action {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    .text {
+      display: none;
+
+      @media (min-width: 950px) {
+        display: block;
+      }
+    }
+  }
+}
